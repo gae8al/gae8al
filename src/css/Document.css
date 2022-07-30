@@ -1,0 +1,52 @@
+.document_area > * { margin-bottom: 50px; }
+
+sup.two:hover:before { content: '말 그대로 개판으로 모였다.'; }
+sup.three:hover:before { content: '본 문서 또한 그 산물이다.'; }
+sup.four:hover:before { content: '스파이는 기획자 본인인 강여상이었으며, 나머지 멤버들은 결국 스파이 검거에 실패했다.'; }
+sup.five:hover:before { content: '정*호'; }
+sup.six:hover:before { content: '이 글에서 박성화의 안 어울리는 직업으로는 ENTP이 나왔다. \A 박성화의 실제 MBTI는 ENTP이 맞다.'; }
+sup.seven:hover:before { content: '박성화는 정윤호를 보고 따라 하기 시작했다고 했지만, \A 정작 정윤호는 박성화에게서 옮았다고 주장한다.'; }
+sup.eight:hover:before { content: '보통 이것도 어이없을 때 사용하는 편이다.'; }
+sup.nine:hover:before { content: '정확하지 않다.'; }
+sup.ten:hover:before { content: '사실 욕을 하는 특정 인물들만 사용하는 것 \A 같기도 하다.'; }
+sup.eleven:hover:before { content: '처음에는 어색해하던 종호도 이제는 즐기고 있는 것으로 보인다.'; }
+sup.twelve:hover:before { content: '놀랍게도 사실이다. 게임을 하면 이 두 인물이 룰 이해에 있어 가장 미숙한 점을 알 수 있다.'; }
+sup.thirteen:hover:before { content: '최산은 그런 정윤호의 댓글을 보고 “투호로 처맞고 싶냐”고 물어봤다.'; }
+
+.common_txt { padding-top: 30px; }
+.common_txt .img_area { text-align: center; }
+.common_txt img { width: 80%; margin-bottom: 30px; }
+.common_txt b { text-decoration: underline; }
+.common_txt .txt_quote { margin: 30px 0; width: fit-content; padding: 20px; border: 2px solid #888;}
+
+#summary {}
+#summary h1 {}
+#summary img { display: block; }
+#summary img:nth-child(2) { width: 600px; margin: 0 auto; border: 2px solid #888; }
+#summary img:nth-child(3) { width: 400px; margin: 30px 0; }
+
+#active .act_01 .img_area img { width: 800px; }
+#active .act_01 .img_area div { width: 100%; }
+#active .act_01 .img_area div img { width: 250px; }
+
+#active .act_05 .txt_quote { width: 600px; }
+#active .act_05 .txt_quote img { width: 100%; margin: 10px 0; }
+
+#member_list .depths_01 { font-size: 22px; font-weight: 500; margin-bottom: 30px !important; }
+#member_list .member_tbl { width: 100%; margin-bottom: 50px; }
+#member_list .member_tbl table { width: 100%; background: #111; }
+#member_list .member_tbl table th { padding: 20px; color: #fff; }
+#member_list .member_tbl table th span { font-size: 20px; }
+#member_list .member_tbl table th h2::after { display: none; }
+#member_list .member_tbl table td { padding: 5px; text-align: center; }
+#member_list .member_tbl table td img { cursor: pointer; width: 100%; }
+#member_list .member_tbl table td div { padding: 10px; }
+#member_list .member_tbl table td div h4 { color: #fff; }
+
+#member_list #member_list_01 { margin-bottom: 50px; }
+#member_list #member_list_02 span { cursor: pointer; }
+
+#member_list #member-child_04 details > h4 { margin-bottom: 20px; }
+#member_list .member_tbl.friends table td { width: 50%; color: #fff; }
+#member_list .member_tbl.friends table td img { margin: 0; height: 400px; object-fit: cover; overflow: hidden; }
+#member_list .member_tbl.friends table td h4 { margin: 10px 0; }

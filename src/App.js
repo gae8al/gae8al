@@ -1,21 +1,14 @@
 import React from 'react';
-import Winter from './components/Winter';
-import Desc from './components/Desc';
+import List from './components/List'
+import Document from './components/Document';
 
 function App() {
   return (
-    <div style={container}>
-      <Winter />
-      <Desc />
+    <div id="wrap">
+      <List />
+      <Document />
     </div>
   );
 }
 
 export default App;
-
-let container = {
-  width: "700px",
-  margin: "0 auto",
-  padding: "50px 0",
-  overflow: "hidden"
-}

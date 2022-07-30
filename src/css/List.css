@@ -1,0 +1,21 @@
+.list { width: 100%; display: inline-flex; justify-content: space-between; }
+  
+.list .index_area { padding: 20px; border: 1px solid #ddd; height: fit-content; }
+.list .index_area div { font-size: 20px; }
+.list .index_area ul { list-style-type: none; font-size: 14px; }
+.list .index_area ul:last-child { padding-bottom: 0; }
+.list .index_area ul li { margin: 5px 0; }
+.list .index_area ul li ul { padding-left: 20px; }
+
+.list .desc_area .logo_area { width: 100%; display: inline-flex; justify-content: center; align-items: center; text-align: center; background: #111; }
+.list .desc_area .logo_area span::after { content: ''; position: absolute; top: -10px; left: 0; width: 1px; height: 40px; background: #888; margin-left: -10px; }
+.list .desc_area .logo_area span { position: relative; margin-left: 20px; font-size: 18px; color: #fff; }
+.list .desc_area .logo_area img { width: 60px; }
+.list .desc_area table { position: relative; width: 600px; padding: 10px; 
+  background : #fff; font-size: 14px; }
+.list .desc_area table th { width: 30%; padding: 10px 5px; 
+  text-align: center; font-weight: bold; background: #111; color: white; }
+.list .desc_area table td { width: 70%; text-align: center; }
+
+
+.tbl_td sup:hover:before { content: '완전체가 된 날짜 기준. \A 첫 결성은 2021 년 10 월 경이다.'; }
